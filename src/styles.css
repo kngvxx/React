@@ -1,0 +1,75 @@
+.App {
+  font-family: roboto;
+  text-align: center;
+}
+.MenuBar {
+  padding-left: 0;
+}
+.MenuItem {
+  text-align: center;
+  background: red;
+  height: 50px;
+}
+.MenuItem:hover {
+  background: pink;
+  height: 50px;
+}
+.DesktopNavigation {
+  background-color: #03a8f4;
+  height: 60px;
+  font-family: roboto;
+  -webkit-box-shadow: 0px 6px 15px 0px rgba(191, 191, 191, 1);
+  -moz-box-shadow: 0px 6px 15px 0px rgba(191, 191, 191, 1);
+  box-shadow: 0px 6px 15px 0px rgba(191, 191, 191, 1);
+}
+.MobileNavigation {
+  background-color: red;
+  height: 60px;
+  font-family: roboto;
+  -webkit-box-shadow: 0px 6px 15px 0px rgba(191, 191, 191, 1);
+  -moz-box-shadow: 0px 6px 15px 0px rgba(191, 191, 191, 1);
+  box-shadow: 0px 6px 15px 0px rgba(191, 191, 191, 1);
+}
+.MobileMenuIcon {
+  height: 30px;
+  padding: 0 !important;
+}
+.Logo {
+  padding: 2px;
+  margin: 2px;
+}
+.PageTitle {
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+img {
+  height: 50px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  margin-bottom: auto;
+}
+
+li {
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: auto;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
